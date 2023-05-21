@@ -1,0 +1,167 @@
+.CreateProductAdmin{
+    background-color: #66747F;
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+}
+
+.adminPanelContainer{
+    /* background-color: pink; */
+}
+
+.CreateProductAdminContainer{
+    margin-left: 60px;
+    color: #fff;
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+.cpHeadingContainer{
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.createProductHeading{
+    /* background-color: aquamarine; */
+    margin-bottom: 0;
+    /* text-align: center; */
+}
+
+.cpBlank{
+    height: 8px;
+    width: 100px;
+    background-color: #0B5ED7;
+    border-radius: 16px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+.cpCommonContainer{
+    /* background-color: yellow; */
+}
+
+.cpCommonLabel{
+    width: 16%;
+}
+
+.cpCommonInput{
+    background-color: black;
+    width: 70%;
+    border: none;
+    border-radius: 6px;
+    padding: 2px 16px;
+    border-bottom: 1px solid gray;
+    color: #fff;
+}
+
+.photoClass{
+    width: 86%;
+    background-color: #000;
+    cursor: pointer;
+    text-align: center;
+    padding: 2px;
+    border-radius: 6px;
+}
+
+.showPhotoContainer{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    width: 86%;
+}
+
+.showPhotoContainer>img{
+    height: 200px;
+    width: 200px;
+    border-radius: 6px;
+    margin-bottom: 26px;
+}
+
+
+@media all and (max-width : 1200px) {
+    .CreateProductAdmin{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .adminPanelContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .CreateProductAdminContainer{
+        margin-top: 26px;
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width : 900px) {
+    .cpCommonLabel{
+        width: 20%;  
+    }
+    
+    .cpCommonInput{
+        width: 70%;
+    }
+    .photoClass{
+        width: 90%;
+    }
+}
+
+@media all and (max-width : 700px) {
+    .cpCommonContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cpCommonLabel{
+        width: 50%;
+        margin-bottom: 6px;
+    }
+    .cpCommonInput{
+        width: 100%;
+    }
+    .photoClass{
+        width: 100%;
+    }
+}
+
+/********** AdminCreateTag******** */
+
+.table-responsive{
+    /* background-color: #0B5ED7; */
+    max-width: 86%;
+}
+
+.table{
+    margin-top: 60px;
+}
+
+tbody{
+    color: #fff;
+}
+
+@media all and (max-width : 900px) {
+    .table-responsive{
+        /* background-color: #0B5ED7; */
+        max-width: 90%;
+    }
+    .showPhotoContainer{
+        width: 90%;
+    }
+}
+
+@media all and (max-width : 700px) {
+    .table-responsive{
+        /* background-color: #0B5ED7; */
+        max-width: 100%;
+    }
+    .showPhotoContainer{
+        width: 100%;
+    }
+}
+
+
+

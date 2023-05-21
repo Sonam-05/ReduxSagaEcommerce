@@ -1,0 +1,35 @@
+.AdminEditTag {
+  background-color: rgba(128, 128, 128, 0.95);
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagFormContainer{
+    /* background-color: aquamarine; */
+    width: 460px;
+    box-shadow: 1px 1px 2px 2px #fff;
+    padding: 26px;
+    border-radius: 6px;
+}
+
+.commonTagLabel {
+  /* background-color: darksalmon; */
+  width: 32%;
+  color: #fff;
+}
+
+.commonTagInput {
+  /* background-color: rebeccapurple; */
+  width: 68%;
+  border: none;
+  border-radius: 6px;
+  background-color: black;
+  color: #fff;
+  padding: 2px 16px;
+}

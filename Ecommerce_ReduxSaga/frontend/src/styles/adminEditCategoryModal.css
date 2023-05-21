@@ -1,0 +1,40 @@
+.AdminEditCategoryModal{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+    background-color: rgba(85, 85, 85, 0.946);
+}
+
+.AdminEditCategoryModalContainer{
+    /* background-color: aqua; */
+    width: 400px;
+}
+
+.adminEditCategoryFormContainer{
+    padding: 26px;
+    box-shadow: 1px 1px 2px 2px #fff;
+    border-radius: 6px;
+}
+
+.AdminEditCategoryModalContainerCommonLabel{
+    /* background-color: blueviolet; */
+    width: 35%;
+    color: #fff;
+    font-size: 18px;
+}
+
+.AdminEditCategoryModalCommonInput{
+    /* background-color: brown; */
+    border: none;
+    background-color: black;
+    color: #fff;
+    padding: 2px 16px;
+    border-radius: 6px;
+    width: 65%;
+}

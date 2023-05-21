@@ -1,0 +1,49 @@
+.registerBigContainer{
+    /* background-color: aqua; */
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerForm{
+    background-color: aliceblue;
+    padding: 26px;
+    border-radius: 6px;
+    width: 460px;
+}
+
+.commonInputContainer{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.commonLabelClass{
+   /* background-color: pink; */
+   width: 32%; 
+}
+
+.commonInputClass{
+    /* background-color: aqua; */
+    width: 68%;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 6px;
+    padding-left: 16px;
+}
+
+.submitContainer{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+@media all and (max-width : 800px) {
+    .commonInputContainer{
+        /* background-color: antiquewhite;
+        display: flex;
+        flex-direction: column; */
+    }
+}

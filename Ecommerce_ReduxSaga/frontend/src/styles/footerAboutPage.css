@@ -1,0 +1,79 @@
+.FooterAboutPageBigContainer {
+  /* background-color: aqua; */
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FooterAboutPageContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 40px;
+}
+
+.FAPImageContainer {
+  /* background-color: pink; */
+  width: 40%;
+  animation: updown 1.5s infinite ease-in-out;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(0px);
+  }
+  15% {
+    transform: translateY(-6px);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  40% {
+    transform: translateY(-6px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  60% {
+    transform: translateY(6px);
+  }
+  75% {
+    transform: translateY(10px);
+  }
+  85% {
+    transform: translateY(6px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.FAPImageContainer > img {
+  height: 100%;
+  width: 100%;
+}
+
+.FAPContentContainer {
+  /* background-color: blue; */
+  width: 55%;
+}
+
+@media all and (max-width : 800px) {
+  .FooterAboutPageContainer{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .FAPImageContainer {
+    /* background-color: pink; */
+    width: 60%;
+    margin: 26px;
+  }
+  .FAPContentContainer {
+    /* background-color: blue; */
+    width: 60%;
+  }
+}

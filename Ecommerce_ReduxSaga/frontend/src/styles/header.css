@@ -1,0 +1,18 @@
+.Header{
+    /* background-color: aqua; */
+}
+
+.navbar{
+    /* background-color: yellow !important; */
+    box-shadow: 1px 1px 2px 2px rgb(212, 219, 225);
+}
+
+.searchInputClass{
+    margin: 4px;
+}
+
+.searchBtn{
+    margin: 16px;
+    margin: 6px;
+}
+

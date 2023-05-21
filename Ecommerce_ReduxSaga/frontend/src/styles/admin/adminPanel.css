@@ -1,0 +1,28 @@
+.adminCard {
+  background-color: #1a1c1e !important;
+  color: #fff;
+}
+
+.adminPanelHead {
+  border-bottom: 1px solid white;
+  font-size: 22px;
+  text-align: center;
+}
+
+.ulClass {
+  /* background-color: #1a1c1e !important; */
+}
+
+.ulClass > .list-group-item {
+  background-color: #1a1c1e;
+}
+
+.ulClass > li > a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.ulClass >.active{
+  /* color: #0B5ED7; */
+  background-color: #0B5ED7;
+}
